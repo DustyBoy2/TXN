@@ -1,22 +1,15 @@
 
+
 * {
     height: 150vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
+    
 }
 
-main {
-    height: 50vh;
-    background: url('stage.jpg');
-    background-size: center;
-    background-position: center;
-}
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
+
 
 .navbar .logo {
     padding: 22px 20px;
@@ -58,17 +51,34 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-.content {
+
+.socials-container {
     display: flex;
-    align-items:center;
-    height: 150vh;
-    padding: 50px 100px 0;
-    color:rgb(0, 255, 21)
+    gap: 20px;
 }
 
-.info {
- font-size: 50px;
+.socials-container a {
+    background-color: #ebebf6;
+    padding: 1em;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
+
+
+.socials-container a svg {
+    height: 32px;
+}
+
+
+
+
+
 
 
 
